@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce Website With Payment</title>
+  <!--link to CSS-->
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+      <!--Nav-->
+      <div class="nav container">
+      <!--Logo-->
+      <a href="#" class="logo">Ecommerce</a>
+      <!--Cart Icon-->
+      <i class='bx bx-shopping-bag' id="cart-icon" data-quantity = "0"></i>
+
+      <!--Cart-->
+      <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <!--Content-->
+        <div class="cart-content"></div>
+        <!--Total-->
+        <div class="total">          
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+
+        <!--Buy Button-->
+        <button type="button" class="btn-buy">Pay Now</button>
+        <!--Close Cart-->
+        <i class='bx bx-x' id="close-cart"></i>
+      </div>
+      </div>
+    </header>  
+
+    <!--Products-->
+    <section class="shop container">
+      <h2 class="section-title">Shop Products</h2>
+      <!--Shop Content-->
+      <div class="shop-content">
+        <!--Box 1-->
+        <div class="product-box">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvDdWRAzt3euVGU5Eq6l5zqe416P7AOyof5UDnk36n7a00cIUkH2T36JgfVxrzCTaWreiYL8PfsFmmdkhACP2qo3JTg0xDHmhWex3AnWnuCVbKKg9i9AFfPu4uNywZppG4cnHBzNk2LLn5Q2rV8prOGfS9cyOi_n_vSOw7q_CqGozsPvdkyJXUz9nn-heg/s320/Arithmetic-STD1.PNG" 
+               alt="" 
+               class="product-img">
+          <h2 class="product-title">ARITHMETIC </h2>
+          <span class="price">Tsh 12000</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+        <!--Box 2-->
+
+        <div class="product-box">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIPQBqftXdp-GUekLf3flBuDMJTo7Lps_TTn1yxQWKPvR_1QXSm1CcCSoDv-rW-bCF4ulsYklvjT5JFlYw6vF1yu6BKmMzBkFcg2BAREUFYnouQrLeHthEumboC318o7AI_96l627ay6YpFpJN-Z8-fO5j5IH8toxo3tlYBhewHGK5krAP5XQLXR6ptLoV/s320/Writing-STD1.png" 
+               alt="" 
+               class="product-img">
+          <h2 class="product-title">WRITING </h2>
+          <span class="price">Tsh 12000</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <!--Box 3-->
+        <div class="product-box">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_j76y6_9Ym_WyhpQzdqjFPz-TDzMerWx8u_bVtQ9IfduYFW06VGgE-ZASmDvZvJSX6n1RC0d9YPv3jmUyAbg2rYIi_yFBAhRJrp0rREG3lqkScoowtTr0nRkeQMcNVI1FKgjmIcGuLsf-t2766E9Tyog_WlzbiDoEQ7oBgq1hcZzljY9vYATXXOkVhkzy/s320/Reading-STD1.PNG" 
+               alt="" 
+               class="product-img">
+          <h2 class="product-title">READING </h2>
+          <span class="price">Tsh 11000</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <!--Box 4-->
+        <div class="product-box">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeGfFblcZjpbis4dx2y4Fo6RsSrc8SOdz-3E-5hh7gfCxfIysInseP29xcuxOx2qEwwTnm4HmK7Ipsc0gZw4ZVSFz4C3C5BXoCxAF70UsQAAghM4ULuhzrqhF2qXZ6qMesemA-G-21B3VnmhhjeyXy50HMTWep7orzR1XRCr2WcKxj3QonR78eOPexwzdb/s320/Sports_and_Arts-STD1.PNG" 
+               alt="" 
+               class="product-img">
+          <h2 class="product-title">SPORT AND ART</h2>
+          <span class="price">Tsh 10000</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div> 
+        
+        <!--Box 5-->
+        <div class="product-box">
+
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH_hvjJxobJAnTQdDGLVsTmDqBrVYPgbenPJL5OeK4SZG-SGrYO9kh4i-Rsv9NdMBwOP84IveVmg3DgEUZloScVWEcbHDoon6ol6RXwpgxNGRQttQkdMCNMINNt_cW0RIwxf0Wc4wVQN7AGeCThPSd6_w76FAkcA2NMFe8m1KPnzJsB6FYPfvYn23pYNbO/s320/Health_and_Environment-STD1.PNG"  
+               alt="" 
+               class="product-img">
+          <h2 class="product-title">HEALTH AND ENV</h2>
+          <span class="price">Tsh 11000</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!--Link To JavaScript-->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
